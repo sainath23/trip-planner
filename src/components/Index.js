@@ -95,11 +95,7 @@ function Index() {
                   <label htmlFor="destination">End Point</label>
                   <input type="text" id="destination" name="destination" value={formData.destination} onChange={handleChange} />
     
-                  <label htmlFor="start_date">Start Date</label>
-                  <input type="date" id="start_date" value="start_date" name="start_date" />
-    
-                  <label htmlFor="end_date">End Date</label>
-                  <input type="date" id="end_date" value="end_date" name="end_date" />
+
     
                   <label htmlFor="numOfTravellers">Number of Travellers</label>
                   <input type="number" id="numOfTravellers" name="numOfTravellers" value={formData.numOfTravellers} onChange={handleChange} />
